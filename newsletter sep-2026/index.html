@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Abierto - IFTS 29</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="document-container">
+    
+    <!-- Encabezado Institucional -->
+    <header class="custom-header">
+        <div class="header-top-bar"></div>
+        <div class="header-tab-container">
+            <div class="header-tab">
+                <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                <svg viewBox="0 0 24 24"><line x1="4" y1="4" x2="20" y2="20"></line><line x1="20" y1="4" x2="4" y2="20"></line></svg>
+                <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                <span>/IFTS29</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <!-- Portada e Índice -->
+        <div class="portada">
+            <div class="meta-header font-archivo">
+                <span>septiembre 2026</span>
+                <span>Num. 2</span>
+            </div>
+            
+            <h1 class="main-title">CÓDIGO ABIERTO</h1>
+            
+            <div class="intro-text">
+                <p>Bienvenidos/as a Código Abierto, un espacio diseñado para compartir los proyectos, las experiencias y novedades que forman parte de la vida de nuestro instituto. Inauguramos este entorno con el objetivo de documentar y visibilizar lo que construimos día a día.</p>
+                <br>
+                <p>En esta edición nos centraremos en los puntos clave de las propuestas académicas presentadas, los avances en la Práctica Profesionalizante y los nuevos horizontes metodológicos que nuestros estudiantes del 29 están liderando. ¡Gracias por ser parte de este ecosistema compartido de ideas y aprendizaje!</p>
+            </div>
+            
+            <div class="signature-wrapper">
+                <div class="signature-box">Equipo de Asesoría Pedagógica</div>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="indice-badge">Índice</div>
+            
+            <div class="index-list">
+                <div class="index-row">
+                    <div class="index-num">01</div>
+                    <div class="index-bar">
+                        <div class="index-bar-teal"></div>
+                        <div class="index-bar-navy"></div>
+                        <div class="index-text">1º Congreso de Educación Técnica Superior 2026</div>
+                    </div>
+                </div>
+                <div class="index-row">
+                    <div class="index-num">02</div>
+                    <div class="index-bar">
+                        <div class="index-bar-teal"></div>
+                        <div class="index-bar-navy"></div>
+                        <div class="index-text">Práctica Profesionalizante IV (PP4)</div>
+                    </div>
+                </div>
+                <div class="index-row">
+                    <div class="index-num">03</div>
+                    <div class="index-bar">
+                        <div class="index-bar-teal"></div>
+                        <div class="index-bar-navy"></div>
+                        <div class="index-text">Metodologías activas en el IFTS 29</div>
+                    </div>
+                </div>
+                <div class="index-row">
+                    <div class="index-num">04</div>
+                    <div class="index-bar">
+                        <div class="index-bar-teal"></div>
+                        <div class="index-bar-navy"></div>
+                        <div class="index-text">Semana de Familiarización & Lo que viene</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 1: Congreso -->
+        <div class="section-header">
+            <h2 class="section-header-text">1º Congreso de Educación Técnica Superior 2026</h2>
+        </div>
+        <!-- Contenedor vacío donde se cargará el texto de Congreso -->
+        <div class="content-block" id="texto-congreso"></div>
+
+        <!-- SECCIÓN 2: PP4 -->
+        <div class="section-header">
+            <h2 class="section-header-text">PP4</h2>
+        </div>
+        <!-- Contenedor vacío donde se cargará el texto de PP4 -->
+        <div class="content-block" id="texto-pp4"></div>
+
+        <!-- SECCIÓN 3: Metodologías Activas -->
+        <div class="section-header">
+            <h2 class="section-header-text">Metodologías activas</h2>
+        </div>
+        <!-- Contenedor vacío donde se cargará toda la estructura de Metodologías -->
+        <div class="content-block" id="texto-metodologias"></div>
+
+        <!-- SECCIÓN 4: Semana de Familiarización -->
+        <div class="section-header">
+            <h2 class="section-header-text">Semana de Familiarización</h2>
+        </div>
+        <!-- Contenedor vacío donde se cargará el texto de Familiarización -->
+        <div class="content-block" id="texto-familiarizacion"></div>
+
+        <!-- SECCIÓN 5: Lo que viene -->
+        
+        <div class="proximamente-section">
+            <!-- Contenedor dinámico donde se cargará el texto completo de Lo que viene -->
+            <div id="texto-loqueviene"></div>
+        </div>
+        
+    </main>
+
+    <!-- Pie de Página Institucional -->
+    <footer>
+        <img src="Footer_Ministerio-escudo.png" alt="Footer Ministerio de Educación" class="footer-img">
+    </footer>
+
+</div>
+
+<!-- Enlace al script externo (Lógica de carga y pestañas) -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
